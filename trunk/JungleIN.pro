@@ -10,6 +10,7 @@ TEMPLATE = app
 DEPENDPATH += src
 INCLUDEPATH = src "D:\System\QtSDK\glew-1.5.4-mingw32\include"
 win32:LIBS += -L"D:\System\QtSDK\glew-1.5.4-mingw32\lib" -lglew32
+unix:LIBS += -lGLEW
 
 DESTDIR = release
 OBJECTS_DIR = obj
